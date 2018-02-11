@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Help</title>
+
+
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="img/icons/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icons/114x114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icons/72x72.png">
+  <link rel="apple-touch-icon-precomposed" href="img/icons/default.png">
+
+
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.theme.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Your custom colour override - predefined colours are: colour-blue.css, colour-green.css, colour-lavander.css, orange is default-->
+  <link href="#" id="colour-scheme" rel="stylesheet">
+
+  <script src="js/ngi.polyfill.min.js"></script>
+  <script src="GMLIB/system.js"></script>
+  <script src="GMLIB/info.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCtLvy4ODS08d-wlfdrLiadsjB3cVUcmA0&libraries=places"></script>
+  
+<style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+     #map {
+
+		padding: 136px;
+      }
+	
+	
+</style>
+
+</head>
+
+<body class="page-index has-hero">
+  <!--Change the background class to alter background image, options are: benches, boots, buildings, city, metro -->
+  <div id="background-wrapper" class="buildings" data-stellar-background-ratio="0.1">
+
+    <!-- ======== @Region: #navigation ======== -->
+    <div id="navigation" class="wrapper">
+
+      <div class="header">
+        <div class="header-inner container">
+          <div class="row">
+            <div class="col-md-8">
+              <!--navbar-branding/logo - hidden image tag & site name so things like Facebook to pick up, actual logo set via CSS for flexibility -->
+              <a class="navbar-brand" href="index.html" title="Home">
+                <h1 class="hidden">
+                    <img src="img/logo.png" alt="Flexor Logo">
+                    Flexor
+                  </h1>
+              </a>
+            </div>
+            <!--header rightside-->
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="navbar navbar-default">
+          <!--mobile collapse menu button-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <!--social media icons-->
+          <div class="navbar-text social-media social-media-inline pull-right">
+            <!--@todo: replace with company social media details-->
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+          </div>
+          <!--everything within this div is collapsed on mobile-->
+        
+          <!--/.navbar-collapse -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== @Region: #content ======== -->
+  <div id="map"></div>
+<div class="col-md-12" >
+        <h2 class="block-title">
+            Recherche
+        </h2>
+
+    
+  
+    <form method="POST">
+		<input type="number" id="latitude" value="" />
+		<input type="number" id="longitude" value="" />
+		<input type="text" id="mapsearch" size="50" onClick="Search()">
+    </form> <br/><br/>
+
+</div>
+
+
+  <!-- /content -->
+
+
+  <!-- ======== @Region: #footer ======== -->
+  <footer id="footer" class="block block-bg-grey-dark" data-block-bg-img="img/bg_footer-map.png" data-stellar-background-ratio="0.4">
+    <div class="container">
+
+	<div class="row subfooter">
+        <!--@todo: replace with company copyright details-->
+        <div class="col-md-7">
+          <p>Copyright © BDSas</p>
+          <div class="credits">
+
+            <a href="#">Kably Alazizi Fhiyil</a> by MR.BDSas
+          </div>
+        </div>
+        <div class="col-md-5">
+          <ul class="list-inline pull-right">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="#top" class="scrolltop">Top</a>
+
+    </div>
+  </footer>
+
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/stellar/stellar.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+  <!--Custom scripts demo background & colour switcher - OPTIONAL -->
+  <script src="js/color-switcher.js"></script>
+
+  <!--Contactform script -->
+  <script src="contactform/contactform.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
