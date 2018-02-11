@@ -8,9 +8,9 @@ Lets you :
 
 # How to Run
 
-1. Download ngi sdk from [GM Website](https://developer.gm.com/ngi/downloads)
-2. In directory, run command
-# How to run
+Download ngi sdk from [GM Website](https://developer.gm.com/ngi/downloads)
+
+In directory, run command
 ```
 > cd Projet-SmartCar
 > ngi serve --force
@@ -23,7 +23,7 @@ Lets you :
 
 # Predict Qualite of car 
 
-![alt text](https://github.com/akallouch0/gm-ngi/blob/master/Screen/image2.png)
+![alt text](https://github.com/akallouch0/SmartCar12blob/master/Screen/image2.png)
 
 
 
