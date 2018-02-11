@@ -18,12 +18,12 @@ In directory, run command
 
 # App Home 
 
-![alt text](hhttps://github.com/ELMASRY1992/SmartCar12/blob/master/Screen/image1.png)
+![alt text](https://github.com/ELMASRY1992/SmartCar12/blob/master/Screen/image1.png)
 
 
 # Predict Qualite of car 
 
-![alt text](https://github.com/akallouch0/SmartCar12blob/master/Screen/image2.png)
+![alt text](https://github.com/ELMASRY1992/SmartCar12/blob/master/Screen/image2.png)
 
 
 
